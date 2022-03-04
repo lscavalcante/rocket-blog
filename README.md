@@ -30,6 +30,11 @@ OR
 ## Screens of project
 ------------------
 #### **Web**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_one.png" alt="Sublime's custom image"/>
+  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_one.png" alt="Sublime's custom image"/>
+</p>
+
 ![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_one.png)
 ![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_two.png)
 
