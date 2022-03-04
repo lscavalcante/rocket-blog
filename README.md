@@ -30,19 +30,17 @@ OR
 ## Screens of project
 ------------------
 #### **Web**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_one.png" alt="Sublime's custom image"/>
-  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_one.png" alt="Sublime's custom image"/>
-</p>
 
 ![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_one.png)
 ![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/web_two.png)
 
 
 #### **Mobile**
-![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/mobile_one.png)
-![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/mobile_two.png)
-![](https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/mobile_three.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/mobile_one.png" alt="mobile one"/>
+  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/mobile_two.png" alt="mobile two"/>
+  <img src="https://raw.githubusercontent.com/lscavalcante/rocket-blog/main/public/images/mobile_three.png" alt="mobile three"/>
+</p>
 
 
 
