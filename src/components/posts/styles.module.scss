@@ -1,0 +1,55 @@
+.container {
+    max-width: 1120px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+
+    .favoriteGrid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        overflow-x: hidden;
+
+        grid-template-areas:
+            "img cardOne"
+            "img cardTwo"
+            "cardThree .";
+
+        img {
+            width: 100%;
+            grid-area: img;
+        }
+
+        .cardOne {
+            grid-area: cardOne;
+        }
+
+        .cardTwo {
+            grid-area: cardTwo;
+        }
+
+        .cardThree {
+            grid-area: cardThree;
+        }
+    }
+
+    .cards {
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+        gap: 10px;
+    }
+
+    @media (max-width: 1000px) {
+        .favoriteGrid {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

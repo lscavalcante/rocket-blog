@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: var(--purple-bg);
+
+    height: 6rem;
+    padding: 0 2rem;
+
+    max-width: 1120px;
+    margin: 0 auto;
+
+    img {
+        cursor: pointer;
+    }
+
+    nav {
+        padding-left: 5rem;
+
+        a {
+            cursor: pointer;
+            position: relative;
+            display: inline-block; // deixar na mesma linha e consegue definir altura e largura
+            padding: 0 0.5rem;
+            line-height: 6rem;
+            color: white;
+            transition: opacity 0.2s;
+            font-size: 1rem;
+
+            & + a {
+                margin-left: 2rem;
+            }
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &.active {
+                color: var(--color-logo);
+                font-weight: bold;
+            }
+        }
+    }
+
+    .formGroup {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            padding: 0.7rem 1.4rem;
+            outline: none;
+            border-radius: 5px;
+            color: white;
+            background: var(--dark-bg);
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            border: none;
+            
+        }
+
+        button {
+            padding: 0.2rem 2rem;
+            background: var(--button-bg);
+            border: none;
+            border-radius: 5px;
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    @media(max-width: 1000px) {
+        nav {
+            display: none;
+        }
+
+        .formGroup {
+            display: none;
+        }
+    }
+}
